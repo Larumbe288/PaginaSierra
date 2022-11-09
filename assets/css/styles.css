@@ -7,11 +7,19 @@ body {
   padding: 0;
 }
 .flexbox {
-  font-family: Roboto, Arial, sans-serif;
+  font-family: Arial, sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
+}
+@font-face {
+  font-family: Bondoni;
+  src: url(../fonts/BodoniFLF-Italic.ttf);
+}
+
+h2 {
+  font-family: 'Bondoni', 'Times New Roman', 'serif';
 }
 
 .navigation__checkbox {
